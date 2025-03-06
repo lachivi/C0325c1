@@ -12,7 +12,7 @@ public class Tinh2so {
         int tong = a + b;
         int hieu = a - b;
         int tich = a * b;
-        String thuong = (b != 0) ? String.valueOf((double) a / b) : "Không thể chia cho 0";
+        double thuong = (double) a / b;
         System.out.println("Tổng = " + tong);
         System.out.println("Hiệu = " + hieu);
         System.out.println("Tích = " + tich);
